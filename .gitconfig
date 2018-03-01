@@ -1,0 +1,38 @@
+[user]
+  name  = Kivanc Yazan
+  email = kyzn@cpan.org
+[alias]
+  a  = add
+  b  = branch
+  c  = commit
+  cl = clone
+  cm = commit -m
+  co = checkout
+  d  = diff
+  ds = diff --staged
+  f  = !git fetch -p && git rebase --autostash origin/$M
+  g  = grep
+  l  = log --graph --decorate --oneline --name-status
+  la = log --graph --decorate --oneline --name-status --all
+  p  = push
+  pf = push --force-with-lease
+  po = push origin --set-upstream
+  pl = pull
+  rs = reset --soft HEAD^
+  s  = status --short --branch
+  t  = log --no-walk --tags --pretty='%h %d %s' --decorate=full
+[color]
+  branch      = auto
+  diff        = auto
+  interactive = auto
+  status      = auto
+[pull]
+  rebase      = true
+[push]
+  default     = simple
+[commit]
+  verbose     = true
+[core]
+  editor      = vim
+[rebase]
+  autostash   = true

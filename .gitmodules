@@ -1,0 +1,15 @@
+[submodule ".vim/pack/dist/start/vim-airline-themes"]
+	path = .vim/pack/dist/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule ".vim/pack/dist/start/vim-perl"]
+	path = .vim/pack/dist/start/vim-perl
+	url = https://github.com/vim-perl/vim-perl
+[submodule ".vim/pack/dist/start/vim-fugitive"]
+	path = .vim/pack/dist/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule ".vim/pack/dist/start/ale"]
+	path = .vim/pack/dist/start/ale
+	url = https://github.com/w0rp/ale.git
+[submodule ".vim/pack/dist/start/vim-airline"]
+	path = .vim/pack/dist/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
