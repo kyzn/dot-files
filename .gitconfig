@@ -3,9 +3,10 @@
   email = kyzn@cpan.org
 [alias]
   a  = add
+  aa = add --all
   b  = branch
   c  = commit
-  cl = clone
+  ca = commit --amend
   cm = commit -m
   co = checkout
   d  = diff
@@ -20,19 +21,18 @@
   pl = pull
   rs = reset --soft HEAD^
   s  = status --short --branch
-  t  = log --no-walk --tags --pretty='%h %d %s' --decorate=full
 [color]
   branch      = auto
   diff        = auto
   interactive = auto
   status      = auto
-[pull]
-  rebase      = true
-[push]
-  default     = simple
 [commit]
   verbose     = true
 [core]
   editor      = vim
+[pull]
+  rebase      = true
+[push]
+  default     = simple
 [rebase]
   autostash   = true

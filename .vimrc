@@ -13,6 +13,7 @@ set expandtab   " Tabs to spaces
 set tabstop=2   " Tab = two space
 set shiftwidth=2
 set cursorline  " Horizontal line
+set backspace=2 " make backspace work
 
 "Airline
 set noshowmode
