@@ -24,7 +24,3 @@ set ttimeoutlen=10
 
 "FZF
 set rtp+=~/.fzf
-
-"ALE
-let g:ale_linters = {'go': ['gofmt', 'golint', 'go vet', 'gometalinter'], 'perl': ['perl','perlcritic'] }
-let g:airline#extensions#ale#enabled = 1
