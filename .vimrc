@@ -24,3 +24,7 @@ set ttimeoutlen=10
 
 "FZF
 set rtp+=~/.fzf
+
+"Fix xfce4-terminal 0~ 1~ bug
+"https://unix.stackexchange.com/questions/196098/copy-paste-in-xfce4-terminal-adds-0-and-1    #196574
+set t_BE=
