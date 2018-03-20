@@ -30,6 +30,7 @@
   verbose     = true
 [core]
   editor      = vim
+  pager       = ~/.config/diff-highlight | less -r
 [pull]
   rebase      = true
 [push]
