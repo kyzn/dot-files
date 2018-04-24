@@ -26,6 +26,10 @@
   diff        = auto
   interactive = auto
   status      = auto
+[color "grep"]
+  linenumber  = yellow bold
+  match       = red
+  filename    = magenta
 [commit]
   verbose     = true
 [core]
