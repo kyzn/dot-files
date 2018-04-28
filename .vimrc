@@ -9,11 +9,12 @@ set hidden    " let switch between buffers
 "Tabs & spaces
 set encoding=utf-8
 set list listchars=tab:◀\ ,trail:■
-set expandtab   " Tabs to spaces
-set tabstop=2   " Tab = two space
+set expandtab    " Tabs to spaces
+set tabstop=2    " Tab = two space
 set shiftwidth=2
-set cursorline  " Horizontal line
-set backspace=2 " make backspace work
+set cursorline   " Horizontal line
+set backspace=2  " make backspace work
+set nofoldenable " don't fold by default
 
 "Airline
 set noshowmode
