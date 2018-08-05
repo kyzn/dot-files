@@ -1,6 +1,14 @@
 # vim loses color in tmux
 alias tmux='tmux -2'
 
+# start ssh-agent automagically
+if [ ! -S ~/.ssh/ssh_auth_sock ]; then
+  eval `ssh-agent`
+  ln -sf "$SSH_AUTH_SOCK" ~/.ssh/ssh_auth_sock
+fi
+export SSH_AUTH_SOCK=~/.ssh/ssh_auth_sock
+ssh-add -l > /dev/null || ssh-add
+
 # make tmux remember ssh keys
 if [ -S "$SSH_AUTH_SOCK" ] && [ ! -h "$SSH_AUTH_SOCK" ]; then
     ln -sf "$SSH_AUTH_SOCK" ~/.ssh/ssh_auth_sock
