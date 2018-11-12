@@ -1,3 +1,6 @@
+# GPG to prompt password on tty
+export GPG_TTY=$(tty)
+
 # vim loses color in tmux
 alias tmux='tmux -2'
 
