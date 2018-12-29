@@ -5,16 +5,16 @@
   a  = add
   aa = add --all
   b  = branch
-  c  = commit
-  ca = commit --amend
-  cm = commit -m
+  c  = commit --gpg-sign
+  ca = commit --gpg-sign --amend
+  cm = commit --gpg-sign --message
   co = checkout
   d  = diff
   ds = diff --staged
   f  = !git fetch -p && git rebase --autostash origin/$M
   g  = grep
-  l  = log --graph --decorate --oneline --name-status
-  la = log --graph --decorate --oneline --name-status --all
+  l  = log --graph --decorate --oneline --name-status --show-signature
+  la = log --graph --decorate --oneline --name-status --all --show-signature
   p  = push
   pf = push --force-with-lease
   po = push origin --set-upstream
@@ -41,3 +41,5 @@
   default     = simple
 [rebase]
   autostash   = true
+[gpg]
+  program     = gpg2
