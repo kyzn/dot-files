@@ -28,6 +28,9 @@ source ~/perl5/perlbrew/etc/bashrc
 export GOPATH=~/.go
 export PATH=$PATH:$GOPATH/bin
 
+# Rakudo path
+export PATH=$PATH:~/rakudo/bin:~/rakudo/share/perl6/site/bin
+
 # DBIC Trace
 export DBIC_TRACE=1=/tmp/dbic.log
 export DBIC_TRACE_PROFILE="console"
