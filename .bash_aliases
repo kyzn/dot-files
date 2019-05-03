@@ -46,7 +46,7 @@ alias saveb='export B=`git rev-parse --abbrev-ref HEAD` && echo $B'
 alias branchs='git for-each-ref --format "%(refname:short)" refs/remotes/origin | while read b; do echo $(git log -1 --format=%ae $b) $b; done | grep $USER'
 alias merge_1='git checkout $M    && git pull &&\
                git checkout $B    && git pull &&\
-               git fetch --prune  && git rebase --autostash origin/$M &&\
+               git fetch --prune  && git rebase --ignore-date origin/$M &&\
                git push --force-with-lease &&\
                git checkout $M    && git pull'
 alias merge_2='git merge $B && git pull && git push && git push origin :$B && git branch --delete $B'

@@ -11,7 +11,7 @@
   co = checkout
   d  = diff
   ds = diff --staged
-  f  = !git fetch -p && git rebase --autostash origin/$M
+  f  = !git fetch -p && git rebase --ignore-date origin/$M
   g  = grep
   l  = log --graph --decorate --oneline --name-status --show-signature
   la = log --graph --decorate --oneline --name-status --all --show-signature
