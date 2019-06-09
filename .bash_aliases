@@ -26,6 +26,9 @@ export PATH=$PATH:$GOPATH/bin
 # Rakudo
 export PATH=$PATH:~/rakudo/bin:~/rakudo/share/perl6/site/bin
 
+# Android studio
+export PATH=$PATH:~/android-studio/bin
+
 # DBIC Trace
 export DBIC_TRACE=1=/tmp/dbic.log
 export DBIC_TRACE_PROFILE="console"
