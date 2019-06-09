@@ -17,7 +17,7 @@ fi
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 # perlbrew
-source ~/perl5/perlbrew/etc/bashrc
+[ -d ~/perl5/perlbrew/ ] && source ~/perl5/perlbrew/etc/bashrc
 
 # Go stuff
 export GOPATH=~/.go
