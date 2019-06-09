@@ -19,11 +19,11 @@ fi
 # perlbrew
 [ -d ~/perl5/perlbrew/ ] && source ~/perl5/perlbrew/etc/bashrc
 
-# Go stuff
+# Go
 export GOPATH=~/.go
 export PATH=$PATH:$GOPATH/bin
 
-# Rakudo path
+# Rakudo
 export PATH=$PATH:~/rakudo/bin:~/rakudo/share/perl6/site/bin
 
 # DBIC Trace
