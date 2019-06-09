@@ -5,9 +5,9 @@
   a  = add
   aa = add --all
   b  = branch
-  c  = commit --gpg-sign
-  ca = commit --gpg-sign --amend
-  cm = commit --gpg-sign --message
+  c  = commit
+  ca = commit --amend
+  cm = commit --message
   co = checkout
   d  = diff
   ds = diff --staged
@@ -31,6 +31,7 @@
   match       = red
   filename    = magenta
 [commit]
+  gpgSign     = true
   verbose     = true
 [core]
   editor      = vim
