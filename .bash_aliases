@@ -20,8 +20,9 @@ fi
 [ -d ~/perl5/perlbrew/ ] && source ~/perl5/perlbrew/etc/bashrc
 
 # Go
-export GOPATH=~/.go
-export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/usr/local/go/bin:~/go/bin
+# export GOPROXY=https://proxy.golang.org
+# export GOPROXY=https://gocenter.io # jfrog
 
 # Rakudo
 export PATH=$PATH:~/rakudo/bin:~/rakudo/share/perl6/site/bin
