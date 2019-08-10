@@ -30,6 +30,9 @@ export PATH=$PATH:~/rakudo/bin:~/rakudo/share/perl6/site/bin
 # Android studio
 export PATH=$PATH:~/android-studio/bin
 
+# Flutter
+export PATH=$PATH:~/flutter/bin
+
 # DBIC Trace
 export DBIC_TRACE=1=/tmp/dbic.log
 export DBIC_TRACE_PROFILE="console"
