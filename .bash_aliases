@@ -24,6 +24,9 @@ export PATH=$PATH:/usr/local/go/bin:~/go/bin
 # export GOPROXY=https://proxy.golang.org
 # export GOPROXY=https://gocenter.io # jfrog
 
+# Linuxbrew
+export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin
+
 # Rakudo
 export PATH=$PATH:~/rakudo/bin:~/rakudo/share/perl6/site/bin
 
