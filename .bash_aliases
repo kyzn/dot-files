@@ -4,6 +4,9 @@ export GPG_TTY=$(tty)
 # vim loses color in tmux
 alias tmux='tmux -2'
 
+# crontab should use vim
+export VISUAL=vim
+
 # start ssh-agent and add keys automatically
 # also make sure tmux remembers keys
 if [ -d ~/.ssh ] && [ ! -S ~/.ssh/ssh_auth_sock ]; then
