@@ -25,6 +25,9 @@ fi
 # perlbrew
 [ -d ~/perl5/perlbrew/ ] && source ~/perl5/perlbrew/etc/bashrc
 
+# Python 3 pip
+export PATH=$PATH:~/.local/bin
+
 # DBIC Trace
 export DBIC_TRACE=1=/tmp/dbic.log
 export DBIC_TRACE_PROFILE="console"
