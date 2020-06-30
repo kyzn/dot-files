@@ -32,6 +32,12 @@ export PATH=$PATH:~/.local/bin
 export DBIC_TRACE=1=/tmp/dbic.log
 export DBIC_TRACE_PROFILE="console"
 
+# Disable Ctrl-S and Ctrl-Q
+stty stop ''
+stty start ''
+stty -ixon
+stty -ixoff
+
 # ALIASES!
 export M='master'
 alias g='git'
