@@ -19,6 +19,9 @@ fi
 # fzf
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
+# git-hub
+[ -f ~/.git-hub/.rc ] && source ~/.git-hub/.rc
+
 # perlbrew
 [ -d ~/perl5/perlbrew/ ] && source ~/perl5/perlbrew/etc/bashrc
 
