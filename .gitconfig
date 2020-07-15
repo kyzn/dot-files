@@ -31,7 +31,7 @@
   match       = red
   filename    = magenta
 [commit]
-  gpgSign     = true
+  #gpgSign     = true
   verbose     = true
 [core]
   editor      = vim
@@ -42,7 +42,7 @@
   default     = simple
 [rebase]
   autostash   = true
-[gpg]
-  program     = gpg2
+#[gpg]
+  #program     = gpg2
 [format]
   pretty      = fuller
