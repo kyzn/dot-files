@@ -1,3 +1,8 @@
+# for zsh
+# export PS1="%n@mac:%~ %# "
+# for bash
+export PS1='\u@mac:\w \$ '
+
 # GPG to prompt password on tty
 export GPG_TTY=$(tty)
 
@@ -24,6 +29,9 @@ fi
 
 # perlbrew
 [ -d ~/perl5/perlbrew/ ] && source ~/perl5/perlbrew/etc/bashrc
+
+# brew.sh
+export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:$PATH
 
 # Python 3 pip
 export PATH=$PATH:~/.local/bin
