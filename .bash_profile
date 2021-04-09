@@ -1,7 +1,10 @@
-# for zsh
-# export PS1="%n@mac:%~ %# "
-# for bash
-export PS1='\u@mac:\w \$ '
+# This one taken (and modified) from ubuntu default settings
+export PS1='\[\e]0;\u@mac: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@mac\[\033[00m\]:\[\033[01;36m\]\w\[\033[00m\]\$ '
+
+# add colors to ls
+# alias ls='ls --color' should do too
+export CLICOLOR=1
+export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
 
 # GPG to prompt password on tty
 export GPG_TTY=$(tty)
