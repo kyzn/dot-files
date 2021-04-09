@@ -24,7 +24,7 @@ let g:airline_theme='wombat'
 set ttimeoutlen=10
 
 "FZF
-set rtp+=~/.fzf
+set rtp+=/opt/homebrew/opt/fzf
 
 "Fix xfce4-terminal 0~ 1~ bug
 "https://unix.stackexchange.com/questions/196098/copy-paste-in-xfce4-terminal-adds-0-and-1    #196574
