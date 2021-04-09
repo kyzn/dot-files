@@ -33,7 +33,7 @@ fi
 # perlbrew
 [ -d ~/perl5/perlbrew/ ] && source ~/perl5/perlbrew/etc/bashrc
 
-# brew.sh
+# brew
 export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:$PATH
 
 # use openssl (not libressl)
