@@ -36,6 +36,9 @@ fi
 # brew.sh
 export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:$PATH
 
+# use openssl (not libressl)
+export PATH="/opt/homebrew/opt/openssl@1.1/bin:$PATH"
+
 # Python 3 pip
 export PATH=$PATH:~/.local/bin
 
