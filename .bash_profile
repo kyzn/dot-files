@@ -42,6 +42,9 @@ export PATH="/opt/homebrew/opt/openssl@1.1/bin:$PATH"
 # Python 3 pip
 export PATH=$PATH:~/.local/bin
 
+# sublime-text's subl
+export PATH=$PATH:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin
+
 # DBIC Trace
 export DBIC_TRACE=1=/tmp/dbic.log
 export DBIC_TRACE_PROFILE="console"
