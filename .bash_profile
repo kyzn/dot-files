@@ -33,6 +33,9 @@ fi
 # perlbrew
 [ -d ~/perl5/perlbrew/ ] && source ~/perl5/perlbrew/etc/bashrc
 
+# chruby
+[ -d /opt/homebrew/opt/chruby/share/chruby/ ] && source /opt/homebrew/opt/chruby/share/chruby/chruby.sh && source /opt/homebrew/opt/chruby/share/chruby/auto.sh && chruby ruby-2.7.2
+
 # brew
 export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:$PATH
 
