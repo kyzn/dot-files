@@ -59,7 +59,7 @@ stty -ixon
 stty -ixoff
 
 # ALIASES!
-export M='master'
+export M='main'
 alias g='git'
 alias gs='git status --short --branch'
 alias gg='git grep'
