@@ -11,10 +11,11 @@
   co = checkout
   d  = diff
   ds = diff --staged
-  f  = !git fetch -p && git rebase --ignore-date origin/$M
+  f  = !git fetch -p && git rebase --ignore-date origin/`git ma`
   g  = grep
   l  = log --graph --decorate --oneline --name-status --show-signature
   la = log --graph --decorate --oneline --name-status --all --show-signature
+  ma = !git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@'
   p  = push
   pf = push --force-with-lease
   po = push origin --set-upstream
