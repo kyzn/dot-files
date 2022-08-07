@@ -47,3 +47,5 @@
   #program     = gpg2
 [format]
   pretty      = fuller
+[init]
+  defaultBranch = main
