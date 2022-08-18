@@ -1,6 +1,6 @@
 syntax on
 filetype plugin indent on
-colo desert
+colorscheme pablo
 set number    " Display Line numbers
 set t_Co=256  " 256 colors
 set hlsearch  " higlight search
