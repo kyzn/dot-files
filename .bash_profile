@@ -15,6 +15,9 @@ alias tmux='tmux -2'
 # crontab should use vim
 export VISUAL=vim
 
+# Fix for QT causing wifi lags
+export QT_BEARER_POLL_TIMEOUT=-1
+
 # start ssh-agent and add keys automatically
 # also make sure tmux remembers keys
 if [ -d ~/.ssh ] && [ ! -S ~/.ssh/ssh_auth_sock ]; then
