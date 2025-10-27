@@ -1,6 +1,3 @@
-[user]
-  name  = Kivanc Yazan
-  email = kyzn@cpan.org
 [alias]
   a  = add
   aa = add --all
@@ -13,39 +10,44 @@
   ds = diff --staged
   f  = !git fetch -p && git rebase --ignore-date origin/`git ma`
   g  = grep
-  l  = log --graph --decorate --oneline --name-status --show-signature
-  la = log --graph --decorate --oneline --name-status --all --show-signature
+  l  = log --graph --decorate --oneline --name-status
+  la = log --graph --decorate --oneline --name-status --all
   ma = !git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@'
   p  = push
   pf = push --force-with-lease
-  po = push origin --set-upstream
   pl = pull
+  po = push origin --set-upstream
   rs = reset --soft HEAD^
   s  = status --short --branch
 [color]
-  branch      = auto
-  diff        = auto
-  interactive = auto
-  status      = auto
+  branch        = auto
+  diff          = auto
+  interactive   = auto
+  status        = auto
 [color "grep"]
-  linenumber  = yellow bold
-  match       = red
-  filename    = magenta
+  filename      = magenta
+  linenumber    = yellow bold
+  match         = red
 [commit]
-  #gpgSign     = true
-  verbose     = true
+  verbose       = true
 [core]
-  editor      = vim
-  pager       = ~/.config/diff-highlight | less -r
-[pull]
-  rebase      = true
-[push]
-  default     = simple
-[rebase]
-  autostash   = true
-#[gpg]
-  #program     = gpg2
+  editor        = vim
+[diff]
+  colorMoved    = default
 [format]
-  pretty      = fuller
+  pretty        = fuller
 [init]
   defaultBranch = main
+[merge]
+  conflictstyle = diff3
+[pull]
+  rebase        = true
+[push]
+  default       = simple
+[rebase]
+  autostash     = true
+[rerere]
+  enabled       = true
+[user]
+  email         = kyzn@cpan.org
+  name          = Kivanc Yazan
